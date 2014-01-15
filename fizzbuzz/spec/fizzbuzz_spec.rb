@@ -2,7 +2,7 @@ require_relative '../fizzbuzz'
 
 describe "fizzbuzz" do
 	
-	it "returns Fizz if divisible by" do
+	it "returns Fizz if divisible by 3" do
 	 expect(fizzbuzz(3)).to eq('Fizz')
 	end
 
